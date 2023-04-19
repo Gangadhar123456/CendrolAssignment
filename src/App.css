@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-container {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +22,21 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.change-colour-btn{
+  border: 0px;
+  height: 40px;
+  width: 130px;
+  border-radius: 10px;
+  font-family: "Roboto";
+  color: azure;
+}
+
+.click-to-increase{
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 700;
 }
 
 .App-link {
